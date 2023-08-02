@@ -1,0 +1,213 @@
+*{
+    font-family: montserrat;
+}
+.section header{
+    margin-bottom: 40px;
+}
+.section-header h2{
+    color: #08194a;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header h2 span{
+    color: #f77a7a;
+}
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-light .navbar-brand{
+    color: #08194a;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand span{
+    color: #f77a7a;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.w-100{
+    padding: 100vh;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+.carousel{
+    background-image: url(img/home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    margin-top: 25px;
+    color: #08194a;
+    font-weight: 700;
+    text-align: left;
+}
+.carousel-caption h5 span{
+    color: #f77a7a;
+}
+.carousel-caption p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #08194a;
+    text-align: left;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: black;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* services */
+
+.img-area img{
+    width: 100% !important;
+}
+.about-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+}
+.about-text h2 span{
+    color: brown;
+}
+.about-text .btn{
+    background: #000;
+    color: #fff;
+}
+.single-services{
+    background: #3d5392;
+    color: #fff;
+    padding: 30px 15px;
+}
+.single-services i{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.single-services h2{
+    font-family: bebas neue;
+}
+
+/* why us */
+
+.choose-img img{
+    width: 100%;
+}
+.single-box{
+    padding: 10px;
+}
+.single-box i{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #f77a7a;
+}
+.single-box h2{
+    font-family: bebas neue;
+    color: #000;
+}
+
+/* testi */
+
+.imgBox{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+}
+.imgBox img{
+    width: 100%;
+}
+.single-client{
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    padding: 30px 15px;
+    width: 90%;
+    background-position: center;
+}
+.single-client h2{
+    color: #08194a;
+    font-family: bebas neue;
+}
+.single-client h5{
+    color: #3d5392;
+    font-weight: 600;
+    font-size: 15px;
+}
+.single-client h5 span{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* contact */
+
+.left-contact{
+    background-color: #08194a;
+    padding: 60px;
+    color: #fff;
+}
+.left-contact h3{
+    font-family: bebas neue;
+    margin-bottom: 20px;
+}
+.label{
+    font-family: bebas neue;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.contact .btn{
+    background: #08194a;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* footer */
+
+.footer{
+    background: #3d5392;
+    padding: 35px 0;
+    color: #fff;
+}
+.socials i{
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+/* responsive */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-text h2{
+        margin: 20px 0;
+    }
+    .single-services{
+        margin-bottom: 30px;
+    }
+    .single-box{
+        margin-bottom: 30px;
+    }
+    .single-client{
+        margin-bottom: 35px;
+    }
+}
